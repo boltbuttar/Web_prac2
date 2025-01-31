@@ -1,0 +1,241 @@
+/* General Styles */
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: "Graphik Web", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('h6.jpg'); /* Make sure this path is correct */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.hero-content {
+   position: absolute;
+    top: 23%;
+    left: 30%;
+    max-width: 600px;
+    
+}
+.btn{
+    position: absolute;
+    top: 102%;
+    left: 42%;
+    color: var(--ait-link-color);
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #5f8f83;
+    box-shadow: inset -10px 20px 18px 5px #448474e6;
+    border-radius: 28px;
+}
+.btn1{
+    position: absolute;
+    top: 2%;
+    left: 27%;
+    display : flex;
+
+    border: 2px solid #5f8f83;
+    box-shadow: 0px -1px 15px 0px #dee9e6e6;
+    border-radius: 28px;
+   
+}
+.hero h1 {
+    font-size: 115px;
+    font-weight: bold;
+    color: #527c6b;
+    margin: -15px;
+    
+}
+.hero h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #366452;
+    margin: -15px;
+    position: absolute;
+    left: 332px;
+    top: 65px;
+    font-size: 60px;
+}
+.hero p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.hero input[type="button"] {
+    padding: 10px 20px;
+    background-color: rgb(52 53 53 / 60%);
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.8s;
+    border-radius: 28px;
+
+}
+.hero input[type="button"]:hover {
+    background-color: #009966;
+    border-radius: 28px;
+}
+.head input[type="button"]:hover {
+    background-color: #009966;
+    border-radius: 28px;
+}
+.head input[type="button"] {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.6s;
+    border-radius: 16px;
+    color: white;
+   
+
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background: transparent;
+    
+    border-radius: 50px;
+    box-shadow: 5px 3px 15px 15px #dee9e6e6;
+    font-size: 23px;
+}
+
+/* Services Section */
+.service {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #121212;
+}
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.service-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    transition: 0.3s;
+}
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #85ddba;
+}
+.service-card h3 {
+    color: #00ff99;
+}
+
+/* Statistics Section */
+.Statistics {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0a0a0a;
+}
+.stats-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.stat-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 150px;
+}
+.stat-number {
+    font-size: 2rem;
+    color: #00ff99;
+    font-weight: bold;
+}
+.stat-label {
+    font-size: 1rem;
+}
+
+/* FAQ Section */
+.FAQ {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #121212;
+}
+.FAQ-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.FAQ-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s;
+}
+.FAQ-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #00ff99;
+}
+.FAQ-card h3 {
+    color: #00ff99;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0a0a0a;
+}
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #31a074;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    background: #1a1a1a;
+    border: 1px solid #59c197;
+    color: #fff;
+    border-radius: 5px;
+}
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #59c197;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-btn:hover {
+    background-color: #009966;
+}
