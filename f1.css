@@ -8,34 +8,34 @@ body {
 }
 
 /* Hero Section */
+/* Ensure background transition applies only to .hero */
 .hero {
     position: relative;
     width: 100%;
     height: 100vh;
-}
-
-.background-container {
-    position: fixed;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
 }
 
+.background-container {
+    position: absolute; /* Not fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .background-image {
-  
     position: absolute;
     width: 100%;
     height: 100%;
     background-size: cover;
     background-position: center;
-    transition: all 5s;
-    opacity: 0;
+transition: all 3s;
 }
 
 .bg1 {
-    opacity: 1;
+    opacity: 1; /* First background is visible */
 }
-
 
 .hero-content {
    position: absolute;
@@ -211,7 +211,8 @@ body {
     color: #00ff99;
 }
 .video-container{
- padding: 71px 490px;
+
+    padding: 71px 490px;
 }
 .video-container video {
     height: 300px;
