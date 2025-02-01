@@ -239,66 +239,48 @@ body {
 .submit-btn:hover {
     background-color: #009966;
 }
+/* Responsive Styles */
 @media (max-width: 768px) {
-    /* Adjust hero section */
     .hero {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        height: 100vh;
-        padding: 0 20px;
+        height: auto;
+        padding: 20px;
     }
 
-    /* Adjust hero content */
     .hero-content {
         position: static;
-        width: 100%;
-        max-width: 90%;
-        margin: auto;
         text-align: center;
+        padding: 20px;
     }
 
-    /* Improve text size */
     .hero h1 {
-        font-size: 48px;
-        line-height: 1.2;
+        font-size: 50px;
     }
 
     .hero h2 {
-        font-size: 28px;
+        font-size: 30px;
         position: static;
-        text-align: center;
         margin-top: 10px;
     }
 
     .hero p {
         font-size: 18px;
-        margin-bottom: 20px;
     }
 
-    /* Center buttons */
     .btn, .btn1 {
-        position: static;
-        display: block;
-        margin: 10px auto;
-        width: 80%;
-        text-align: center;
-        padding: 12px 0;
+        display: none;
     }
 
-    /* Fix background image */
-    .background-image {
-        background-size: cover;
-        background-position: center;
+    .service-grid, .stats-container, .FAQ-grid {
+        flex-direction: column;
+        align-items: center;
     }
 
-    /* Adjust logo */
-    .logo {
-        top: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 10px 20px;
-        font-size: 18px;
+    .service-card, .stat-item, .FAQ-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .contact-form {
+        padding: 20px;
     }
 }
