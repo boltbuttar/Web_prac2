@@ -34,4 +34,4 @@ function changeBackground() {
     index = (index + 1) % images.length;
 }
 
-setInterval(changeBackground, 7000); // Change every 4 seconds
+setInterval(changeBackground, 4000); // Change every 4 seconds
