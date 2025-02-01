@@ -240,43 +240,65 @@ body {
     background-color: #009966;
 }
 @media (max-width: 768px) {
+    /* Adjust hero section */
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        padding: 0 20px;
+    }
+
+    /* Adjust hero content */
     .hero-content {
-        top: 15%;
-        left: 5%;
-        max-width: 90%; /* Adjust width for smaller screens */
+        position: static;
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
         text-align: center;
     }
 
+    /* Improve text size */
     .hero h1 {
-        font-size: 50px; /* Reduce size for better fit */
+        font-size: 48px;
+        line-height: 1.2;
     }
 
     .hero h2 {
-        font-size: 30px;
-        left: 0;
-        position: relative;
+        font-size: 28px;
+        position: static;
         text-align: center;
-        top: 10px;
+        margin-top: 10px;
     }
 
     .hero p {
         font-size: 18px;
+        margin-bottom: 20px;
     }
 
-    .btn {
-        top: 100%;
-        left: 50%;
-        transform: translateX(-50%); /* Center button on mobile */
+    /* Center buttons */
+    .btn, .btn1 {
+        position: static;
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        text-align: center;
+        padding: 12px 0;
     }
 
-    .btn1 {
-        top: 5%;
+    /* Fix background image */
+    .background-image {
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Adjust logo */
+    .logo {
+        top: 10px;
         left: 50%;
         transform: translateX(-50%);
-    }
-
-    .head input[type="button"] {
-        padding: 8px 20px; /* Adjust button size */
-        font-size: 14px;
+        padding: 10px 20px;
+        font-size: 18px;
     }
 }
