@@ -239,3 +239,44 @@ body {
 .submit-btn:hover {
     background-color: #009966;
 }
+@media (max-width: 768px) {
+    .hero-content {
+        top: 15%;
+        left: 5%;
+        max-width: 90%; /* Adjust width for smaller screens */
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 50px; /* Reduce size for better fit */
+    }
+
+    .hero h2 {
+        font-size: 30px;
+        left: 0;
+        position: relative;
+        text-align: center;
+        top: 10px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .btn {
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%); /* Center button on mobile */
+    }
+
+    .btn1 {
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .head input[type="button"] {
+        padding: 8px 20px; /* Adjust button size */
+        font-size: 14px;
+    }
+}
