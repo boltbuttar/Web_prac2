@@ -117,7 +117,14 @@ body {
     box-shadow: 5px 3px 15px 15px #dee9e6e6;
     font-size: 23px;
 }
+.video-container{
 
+    padding: 71px 490px;
+}
+.video-container video {
+    height: 300px;
+    
+}
 /* Services Section */
 .service {
     text-align: center;
