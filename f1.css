@@ -16,6 +16,7 @@ body {
     overflow: hidden;
 }
 
+
 .background-container {
     position: absolute; /* Not fixed */
     top: 0;
@@ -196,6 +197,12 @@ transition: all 3s;
     justify-content: center;
     gap: 30px;
 }
+.FAQ-card p {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding-top 0.3s ease-out;
+}
+
 .FAQ-card {
     background-color: #1a1a1a;
     padding: 20px;
