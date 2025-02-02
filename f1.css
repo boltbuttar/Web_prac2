@@ -281,7 +281,7 @@ transition: all 3s;
         text-align: center;
         padding: 20px;
        
-        transform: translate(0%, -340%)
+        transform: translate(-2%, 100%)
     }
 
     .hero h1 {
